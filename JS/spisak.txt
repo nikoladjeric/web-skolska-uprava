@@ -1,0 +1,125 @@
+OK --- 1. lupu za search obavezno promeniti, brzina ucitavanja ide preko minut (sa simulacijom)
+OK u slajderima treba postaviti pozadinu staticnu pa onda iz skripte vuci ucitavanje (mozda-kontam da ce izgledati tecnije na sporim mrezama)
+3. vazna obavestenja na glavnoj stranici treba da bude link ka svim obavestenjima
+OK ispod slajdera one tackicke trebalo bi da se promeni kursor na ruku
+OK isto vazi ko kod 4. i na dugmad (levo desno)
+OK index strana na dnu kontakt na procitajte vise treba da vodi na kontakt stranu (il maci procitajte vise) - bolje ukinuti procitajte vise 
+7. mozda dodati u karticu naslovna i vazna obavestenja i pitanja i odgovori
+8.slajderi da se naprave kako valja
+OK --- 9.nasumicno pitanje da se izvlaci na dnu stranice
+OK --- 10. nasumicno obavestenje da se izvlaci (mozda je bolje zadnje obavestenje da se vuce samo-nekako ima vise smisla)
+OK --- 11. search full da se sredi
+OK cirilica i latinica da ide na display none
+OK promeniti na svim stranicama link teme koje istrazujemo -> inkluzivno obrazovanje -> pitanja i odgovori  VODI NA ZAKONSKA REGULATIVA
+14. linksOrg promeniti slike i prvi je i dalje loremipsum
+15. izbrisati sve slike iz SLIKE (naravno one koje nisu potrebne samo) ====================> samo maci one slike sa webp i bacit neke klasicne
+16. za izdvajamo CSS
+17. za pitanja i odgvori CSS
+18. teme koje istrazujemo treba ubaciti na sve strane pitanja i odgovori da se vuce iz JSON fajla
+19. teme koje istrazujemo treba ubaciti na sve strane NASA ISKUSTVA I PRIMERI DOBRE PRAKSE - uh to bas treba videti sta i kako
+20. zaposljavanje u prosveti je ovaj nesto bio u folu da se gase pod strane al MOZDA (verovatno ostaviti)
+21. kontakt stranu sam unosim (kako je krenulo sam cu sve unositi)
+22. slajder sa klizacom ispod (realno sto da ne), i jedan sa tajmerom 
+
+
+
+
+ <!-- =================================================================================================================================== -->
+
+
+.statsInnerBack > .container {
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statsCircle {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    margin-bottom: 30px;
+    /* background-color: rgba(255, 0, 0, 0.205); */
+}
+
+.statsCircle > .innerCircle {
+    position: absolute;
+    top: 7.14%;
+    left: 7.14%;
+    width: 85.68%;
+    height: 85.68%;
+    border: 5px dotted rgba(0, 0, 0, 0.493);
+    border-radius: 50%;
+}
+
+.statsCircle > .stat {
+    position: absolute;
+    width: 14.28%;
+    height: 14.28%;
+    /* border: 3px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+.statsCircle > .stat:hover {
+    background-color: var(--simpleCardsBlue);
+}
+
+.statsCircle > .stat.one {
+    top: 0%;
+    left: 42.84%;
+}
+
+.statsCircle > .stat.two {
+    top: 13.3%;
+    right: 13.3%;
+}
+
+.statsCircle > .stat.three {
+    top: 42.84%;
+    right: 0%;
+}
+
+.statsCircle > .stat.four {
+    right: 13.3%;
+    bottom: 13.3%;
+}
+
+.statsCircle > .stat.five {
+    bottom: 0%;
+    left: 42.84%;
+}
+
+.statsCircle > .stat.six{
+    bottom: 13.3%;
+    left: 13.3%;
+}
+
+.statsCircle > .stat.seven {
+    top: 42.84%;
+    left: 0%;
+}
+
+.statsCircle > .stat.eight {
+    top: 13.3%;
+    left: 13.3%;
+}
+
+.statsCircle > .center {
+    position: absolute;
+    top: 21.42%;
+    left: 21.42%;
+    width: 57.6%;
+    height: 57.6%;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-radius: 50%; */
+}

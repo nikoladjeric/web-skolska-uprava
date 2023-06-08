@@ -1,0 +1,44 @@
+primer stranice za popunjavanje staticnih strana (poput Ustanove->Predskolske-ustanove->Arilje):
+
+<main>
+
+    <!-- ================================================================================================================================ -->
+    <div class="container">
+        <div class="staticPage">
+            <h1>Naslov</h1>
+            <div class="staticPagePhoto">
+                <img src="../../SLIKE/1.webp" alt="">
+            </div>
+            <p>
+                Maecenas at euismod lacus. Praesent pellentesque felis et arcu laoreet, nec faucibus metus tempor. 
+                Aliquam sed fermentum odio. Aenean cursus bibendum vehicula. Quisque orci ex, lobortis non 
+                sollicitudin quis, scelerisque sit amet nibh. Phasellus ultrices semper nisi, nec feugiat risus 
+                pretium sed. Pellentesque tincidunt, ligula vel tempus tincidunt, felis ipsum porttitor arcu, 
+                nec varius nulla leo eget eros. Maecenas vel metus eget leo viverra vestibulum eu id velit. Nam 
+                odio nibh, scelerisque sit amet ex id, ultrices porttitor tellus. Mauris commodo commodo venenatis. 
+                Ut congue interdum enim, quis dignissim neque.
+            </p>
+
+            <p>
+                Vestibulum accumsan sit amet felis laoreet venenatis. Aliquam turpis lorem, commodo et tristique eu, 
+                porta sagittis arcu. Duis ac convallis erat. Nullam vel massa vitae purus sodales sodales. Nullam vitae 
+                consequat urna. Aliquam sit amet erat eget urna sodales porta eu porttitor tellus. Nulla imperdiet 
+                libero non massa congue, sed accumsan mi porttitor. Ut non fermentum urna, non tristique magna. Ut 
+                tincidunt, arcu id bibendum luctus, lectus augue accumsan nisl, a interdum ligula justo ut ligula. 
+                Ut at vulputate elit. Nulla interdum eros dolor, vel tristique orci sagittis non. Vestibulum commodo 
+                ligula lorem, eleifend commodo tortor semper in. Nulla facilisi. Duis sed ultrices tortor, id vulputate 
+                diam. Aenean a velit risus.
+            </p>
+
+            <p>
+                Phasellus malesuada blandit mattis. Sed at mi nec nisl finibus ornare id ac mauris. Donec sed nulla 
+                nunc. In et eros lorem. Pellentesque non leo nec lectus ornare pulvinar. Nullam eget sapien vitae 
+                felis tincidunt rutrum nec eget justo. Ut luctus tristique felis. Aliquam eros eros, consectetur ut 
+                lacinia sit amet, dignissim sit amet augue. Morbi et tincidunt mi. Nullam tempor quis libero in ornare.
+            </p>
+        </div>
+    </div>
+    <!-- ================================================================================================================================ -->
+
+
+</main>
